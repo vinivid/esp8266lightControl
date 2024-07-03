@@ -1,0 +1,97 @@
+body{
+    background-color: rgba(146, 146, 125, 0.384);
+}
+
+#title{
+    position: absolute;
+    display: block;
+    font-family: "OCR A Std", "DejaVu Sans Mono", monospace;
+    font-size: 4vmin;
+    left: 40dvw;
+    top: 3dvh;
+}
+
+.ctrlLamp{
+    position: relative;
+    display: block;
+    width: 6dvw;
+    height: 6dvh;
+    left: 45dvw;
+    top: 15dvh;
+}
+
+.ctrlLamp input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(80, 80, 80);
+    transition: .4s;
+    border-radius: 15vh;
+    cursor: pointer;
+}
+
+.switch::before{
+    position: absolute;
+    content: "";
+    height: 5dvh;
+    width: 2.5dvw;
+    left: 0.2dvw;
+    bottom: 0.4dvh;
+    border-radius: 100%;
+    background-color: rgb(20, 20, 20);
+    transition: .4s;
+}
+
+#lamp1State{
+    left: 8dvw;
+}
+
+.lampstateON{
+    position: absolute;
+    top: 0;
+    bottom: 2px;
+    left: 5dvw;
+    height: 5.2dvh;
+    width: 2.6dvw;
+    border-radius: 100%;
+    transition: .4s;
+    background-color: rgb(255, 209, 6);
+}
+
+.lampstateOFF{
+    position: absolute;
+    top: 0;
+    bottom: 2px;
+    left: 5dvw;
+    height: 5.2dvh;
+    width: 2.6dvw;
+    transition: .4s;
+    border-radius: 100%;
+    background-color: rgb(24, 5, 5);
+}
+
+#bottomPartLamp{
+    position: absolute;
+    bottom: 0px;
+    width: 1dvw;
+    left: 8.85dvw;
+    height: 1dvh;
+    background-color: rgb(71, 71, 71);
+}
+
+input:checked + .switch{
+    background-color: rgb(224, 223, 220);
+}
+
+input:checked + .switch::before{
+    transform: translateX(3dvw);
+    background-color: rgb(255, 255, 255);
+}
