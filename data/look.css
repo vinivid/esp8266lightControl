@@ -95,3 +95,33 @@ input:checked + .switch::before{
     transform: translateX(3dvw);
     background-color: rgb(255, 255, 255);
 }
+
+#luzLig{
+    position: relative;
+    display: flex;
+    font-family: "OCR A Std", "DejaVu Sans Mono", monospace;
+    font-size: 2vmin;
+}
+
+#ligPSens{
+    position: relative;
+    display: flex;
+    font-family: "OCR A Std", "DejaVu Sans Mono", monospace;
+    font-size: 2vmin;
+}
+
+#LigSwitch{
+    position: relative;
+    display: flex;
+    font-family: "OCR A Std", "DejaVu Sans Mono", monospace;
+    font-size: 2vmin;
+}
+
+#tryCenter{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    top: 40dvh;
+}
