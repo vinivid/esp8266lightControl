@@ -37,7 +37,7 @@ $\beta = 100 => ibmin = 0.02mA$
 
 O calculo da resistência da base torna-se:
 
-$\frac{3.3}{2 \dot 10^{-5}} = 165 000 \omega$
+$\frac{3.3}{2 \cdot 10^{-5}} = 165 000 \Omega$
 
 Portanto qualquer resistor abaixo desse sera o suficiente para fazer com que o transitor fique saturado.
 
