@@ -9,6 +9,9 @@
 const char* ssid = "controleLuz";
 const char* passWord = "123456789";
 
+//Pino que controla a luz através do transitor
+int controlLight = 13;
+
 int lightState = 1;
 
 int useSwitch = 1;
@@ -75,6 +78,7 @@ void setup() {
   Serial.println(IP);
 
   pinMode(sensorPin, INPUT);
+  pinMode(controlLight, OUTPUT);
   pinMode(LED_BUILTIN, OUTPUT);
 
   //Inicia o server
@@ -163,6 +167,7 @@ void loop() {
       timeCountStart = 1;
     }
     digitalWrite(LED_BUILTIN, LOW);
+    digitalWrite(controlLight, HIGH);
   }else{
     if(timeCountStart == 1){
       miliP2 = millis();
@@ -171,5 +176,6 @@ void loop() {
       timeCountStart = 0;
     }
     digitalWrite(LED_BUILTIN, HIGH);
+    digitalWrite(controlLight, LOW);
   }
 }
