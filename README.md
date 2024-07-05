@@ -45,11 +45,13 @@ Sendo que a fonte é não ideal eu escolhi o resistor valor de 1K pois eu ja tin
 
 ## Imagem do circuito no Fritzing
 
-<img src="./Images/FritzingCircT.png">
+<img src="./Images/CirFritz.jpg">
 
 ## Imagen do circuito montado
 
 ## Link para o vídeo explicando o projeto
+
+https://www.youtube.com/watch?v=rR7pQTPiGv8
 
 ## Feito por
 
