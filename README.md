@@ -49,7 +49,7 @@ Sendo que a fonte é não ideal eu escolhi o resistor valor de 1K pois eu ja tin
 
 ## Imagen do circuito montado
 
-<img src="./Images/ImagemCircuito">
+<img src="./Images/ImagemCircuito.jpeg">
 
 ## Link para o vídeo explicando o projeto
 
