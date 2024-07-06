@@ -55,6 +55,8 @@ Sendo que a fonte é não ideal eu escolhi o resistor valor de 1K pois eu ja tin
 
 https://www.youtube.com/watch?v=rR7pQTPiGv8
 
+A ser melhorado
+
 ## Feito por
 
 Vinícius Souza Freitas - 15491959
