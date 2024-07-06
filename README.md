@@ -55,6 +55,15 @@ Sendo que a fonte é não ideal eu escolhi o resistor valor de 1K pois eu ja tin
 
 https://www.youtube.com/watch?v=rR7pQTPiGv8
 
+## Bibliotecas/plugins usados
+
+https://github.com/me-no-dev/ESPAsyncTCP
+https://github.com/me-no-dev/ESPAsyncWebServer
+https://github.com/earlephilhower/arduino-littlefs-upload
+https://github.com/bblanchon/ArduinoJson
+
+As partes do código que criei foram feito com base na documentação presente nesses gits.
+
 A ser melhorado
 
 ## Feito por
